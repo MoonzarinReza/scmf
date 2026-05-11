@@ -21,3 +21,6 @@ dependencies = [
 
 [tool.setuptools.package-data]
 scfm = ["data/*.csv", "data/*.txt"]
+
+[tool.setuptools.packages.find]
+include = ["scfm*"]
