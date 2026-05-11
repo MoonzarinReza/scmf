@@ -1,8 +1,8 @@
 # SCFM
 **Supernova Classification with FPCA and Machine Learning**
 
-SCFM is a Python package for binary photometric classification of transients to identify Type Ia supernovae (SNe Ia) using Functional Principal Component Analysis (FPCA) for light curve fitting and 
-Gradient Boosting Decision Trees for classification.
+SCFM is a Python package for binary photometric classification of transients to identify Type Ia supernovae (SNe Ia) using Functional Principal Component Analysis (FPCA) for light curve fitting and Gradient Boosting Decision Trees for classification. Given a set of light curves, SCFM outputs a file identifying potential SNe Ia candidates.
+
 
 ## What is FPCA?
 Functional Principal Component Analysis (FPCA) is a data-driven decomposition method  that represents light curves as a linear combination of weighted eigenvectors in the phase space:
@@ -25,6 +25,14 @@ where m is a fitted parameter representing the apparent peak magnitude, φ_0, φ
 
 ## Installation
 pip install scfm
+
+
+## Repository
+https://github.com/MoonzarinReza/scfm
+
+## Example
+A full worked example is available in the [example notebook]
+https://github.com/MoonzarinReza/scfm/blob/master/scfm/example/example.ipynb
 
 ## Usage
 
