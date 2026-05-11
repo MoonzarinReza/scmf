@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "scfm"
-version = "0.1.1"
+version = "0.1.2"
 description = "Supernova Classification with FPCA and Machine Learning"
 authors = [{name = "Moonzarin Reza"}]
 readme = "README.md"
