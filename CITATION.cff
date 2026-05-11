@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the following."
+authors:
+  - family-names: Reza
+    given-names: Moonzarin
+    orcid: https://orcid.org/0000-0001-5197-0363
+title: "SCFM: Supernova Classification with FPCA and Machine Learning"
+version: 0.1.0
+date-released: 2026-05-10
+repository-code: https://github.com/MoonzarinReza/scfm
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Reza
+      given-names: Moonzarin
+    - family-names: Wang
+      given-names: Lifan
+    - family-names: Hu
+      given-names: Lei
+  title: "An FPCA-Enhanced Ensemble Learning Framework for Photometric Identification of Type Ia Supernovae"
+  year: 2025
+  journal: "arXiv preprint"
+  url: https://arxiv.org/abs/2510.09990
