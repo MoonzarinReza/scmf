@@ -1,7 +1,7 @@
-# SCFM
-**Supernova Classification with FPCA and Machine Learning**
+# SCMF
+**Supernova Classification with Machine Learning and FPCA**
 
-SCFM is a Python package for binary photometric classification of transients to identify Type Ia supernovae (SNe Ia) using Functional Principal Component Analysis (FPCA) for light curve fitting and Gradient Boosting Decision Trees for classification. Given a set of light curves, SCFM outputs a file identifying potential SNe Ia candidates.
+SCMF is a Python package for binary photometric classification of transients to identify Type Ia supernovae (SNe Ia) using Functional Principal Component Analysis (FPCA) for light curve fitting and Gradient Boosting Decision Trees for classification. Given a set of light curves, SCMF outputs a file identifying potential SNe Ia candidates.
 
 
 ## What is FPCA?
@@ -24,20 +24,20 @@ where m is a fitted parameter representing the apparent peak magnitude, φ_0, φ
 - CatBoost is used as the base classifier within a majority-vote ensemble (n_runs, min_votes, and threshold are adjustable).
 
 ## Installation
-pip install scfm
+pip install scmf
 
 
 ## Repository
-https://github.com/MoonzarinReza/scfm
+https://github.com/MoonzarinReza/scmf
 
 ## Example
 A full worked example is available in the [example notebook]
-https://github.com/MoonzarinReza/scfm/blob/master/scfm/example/example.ipynb
+https://github.com/MoonzarinReza/scmf/blob/master/scmf/example/example.ipynb
 
 ## Usage
 
 ### Step 1: Fit Light Curves
-from scfm import fit_lc
+from scmf import fit_lc
 
 fit_lc(lc_dir = '/path/to/lightcurves')
 
@@ -57,7 +57,7 @@ Outputs:
 
 
 ### Step 2: Classify
-from scfm import classify
+from scmf import classify
 
 classify(n_runs = 5, min_votes  = 3, threshold = 0.5)
 
@@ -84,6 +84,6 @@ Outputs:
 Moonzarin Reza, Texas A&M University
 
 ## Citation
-If you use SCFM in your research, please cite:
+If you use SCMF in your research, please cite:
 
 Reza, M., Wang, L., & Hu, L. (2025). An FPCA-Enhanced Ensemble Learning Framework for Photometric Identification of Type Ia Supernovae, arXiv:2510.09990.

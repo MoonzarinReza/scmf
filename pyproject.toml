@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "scfm"
+name = "scmf"
 version = "0.1.2"
 description = "Supernova Classification with FPCA and Machine Learning"
 authors = [{name = "Moonzarin Reza"}]
@@ -22,7 +22,7 @@ dependencies = [
 
 
 [tool.setuptools.package-data]
-scfm = ["data/*.csv", "data/*.txt", "sample_lightcurves/*.csv"]
+scmf = ["data/*.csv", "data/*.txt", "sample_lightcurves/*.csv"]
 
 [tool.setuptools.packages.find]
-include = ["scfm*"]
+include = ["scmf*"]

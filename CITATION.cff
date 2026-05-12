@@ -4,7 +4,7 @@ authors:
   - family-names: Reza
     given-names: Moonzarin
     orcid: https://orcid.org/0000-0001-5197-0363
-title: "SCFM: Supernova Classification with FPCA and Machine Learning"
+title: "SCMF: Supernova Classification with Machine Learning and FPCA"
 version: 0.1.0
 date-released: 2026-05-10
 repository-code: https://github.com/MoonzarinReza/scfm
