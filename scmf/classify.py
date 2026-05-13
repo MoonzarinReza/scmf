@@ -95,7 +95,7 @@ def classify(test_file='final_fpca_data.csv',
     print(f"Training size : {len(x_train)}")
     print(f"Validation size : {len(x_val)}")
     print(f"Test size     : {len(x_test)}")
-    print(f"Features      : {feature_cols}")
+    print(f"Training with features      : {feature_cols}")
 
     # --- Majority-vote ensemble ---------------------------------------------
     seeds = [i * 10 for i in range(n_runs)]

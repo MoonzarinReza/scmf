@@ -45,7 +45,7 @@ fit_lc(lc_dir = '/path/to/lightcurves')
 Parameters
 ----------
 lc_dir  : str, required
-   Root directory containing the light curve CSV files. Each CSV file corresponds to one transient.
+   Root directory containing the light curve CSV files. Each CSV file corresponds to one transient and must contain the following columns: mjd, mag, magerr, filter, redshift, name.
 num_attempts : int, optional
     Number of times the best-fit parameters are determined; the optimum solution is selected based on the minimum chi-square value. Default is 3.
 

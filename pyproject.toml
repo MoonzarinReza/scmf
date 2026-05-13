@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "scmf"
-version = "0.1.2"
+version = "0.1.3"
 description = "Supernova Classification with FPCA and Machine Learning"
 authors = [{name = "Moonzarin Reza"}]
 readme = "README.md"
@@ -22,7 +22,7 @@ dependencies = [
 
 
 [tool.setuptools.package-data]
-scmf = ["data/*.csv", "data/*.txt", "sample_lightcurves/*.csv"]
+scmf = ["data/*.csv", "data/*.txt", "sample_lightcurves/*.csv", "examples/*.ipynb"]
 
 [tool.setuptools.packages.find]
 include = ["scmf*"]
